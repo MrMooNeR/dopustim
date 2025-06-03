@@ -13,8 +13,7 @@ namespace dopustim.Migrations
     [Migration("20250603010540_InitialCreate")]
     partial class InitialCreate
     {
-        /// <inheritdoc />
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+              protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.5");

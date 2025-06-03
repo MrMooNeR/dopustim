@@ -18,8 +18,7 @@ public class EditBookCommandTests
         db.Books.Add(book);
         db.SaveChanges();
 
-        // Меняем название книги
-        book.Title = "Новое название";
+              book.Title = "Новое название";
         var command = new EditBookCommand(book);
         command.Execute(db);
 

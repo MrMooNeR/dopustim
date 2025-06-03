@@ -2,16 +2,9 @@
 {
     partial class Form1
     {
-        /// <summary>
-        ///  Required designer variable.
-        /// </summary>
-        private System.ComponentModel.IContainer components = null;
+                          private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        ///  Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
+                                protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
             {
@@ -22,11 +15,7 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
-        /// </summary>
-        private void InitializeComponent()
+                                private void InitializeComponent()
         {
             Login = new Label();
             textBoxLogin = new TextBox();
@@ -35,63 +24,42 @@
             buttonLogin = new Button();
             labelError = new Label();
             SuspendLayout();
-            // 
-            // Login
-            // 
-            Login.AutoSize = true;
+                                          Login.AutoSize = true;
             Login.Location = new Point(31, 45);
             Login.Name = "Login";
             Login.Size = new Size(52, 20);
             Login.TabIndex = 0;
             Login.Text = "Логин";
             Login.Click += label1_Click;
-            // 
-            // textBoxLogin
-            // 
-            textBoxLogin.Location = new Point(118, 45);
+                                          textBoxLogin.Location = new Point(118, 45);
             textBoxLogin.Name = "textBoxLogin";
             textBoxLogin.Size = new Size(125, 27);
             textBoxLogin.TabIndex = 1;
-            // 
-            // Pass
-            // 
-            Pass.AutoSize = true;
+                                          Pass.AutoSize = true;
             Pass.Location = new Point(31, 94);
             Pass.Name = "Pass";
             Pass.Size = new Size(62, 20);
             Pass.TabIndex = 2;
             Pass.Text = "Пароль";
-            // 
-            // textBoxPassword
-            // 
-            textBoxPassword.Location = new Point(118, 94);
+                                          textBoxPassword.Location = new Point(118, 94);
             textBoxPassword.Name = "textBoxPassword";
             textBoxPassword.Size = new Size(125, 27);
             textBoxPassword.TabIndex = 3;
             textBoxPassword.UseSystemPasswordChar = true;
-            // 
-            // buttonLogin
-            // 
-            buttonLogin.Location = new Point(31, 182);
+                                          buttonLogin.Location = new Point(31, 182);
             buttonLogin.Name = "buttonLogin";
             buttonLogin.Size = new Size(94, 29);
             buttonLogin.TabIndex = 4;
             buttonLogin.Text = "Войти";
             buttonLogin.UseVisualStyleBackColor = true;
             buttonLogin.Click += buttonLogin_Click;
-            // 
-            // labelError
-            // 
-            labelError.AutoSize = true;
+                                          labelError.AutoSize = true;
             labelError.ForeColor = Color.Red;
             labelError.Location = new Point(31, 240);
             labelError.Name = "labelError";
             labelError.Size = new Size(0, 20);
             labelError.TabIndex = 5;
-            // 
-            // Form1
-            // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+                                          AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(labelError);

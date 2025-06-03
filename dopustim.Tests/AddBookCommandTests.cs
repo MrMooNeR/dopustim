@@ -9,8 +9,7 @@ public class AddBookCommandTests
     [Fact]
     public void Execute_AddsBookToDatabase()
     {
-        // Arrange: создаём in-memory базу
-        var options = new DbContextOptionsBuilder<LibraryContext>()
+              var options = new DbContextOptionsBuilder<LibraryContext>()
             .UseInMemoryDatabase(databaseName: "TestDb_Add")
             .Options;
 
@@ -18,11 +17,9 @@ public class AddBookCommandTests
         var book = new Book { Title = "Тестовая книга", Author = "Автор", UserId = 1 };
         var command = new AddBookCommand(book);
 
-        // Act
-        command.Execute(db);
+              command.Execute(db);
 
-        // Assert
-        Assert.Single(db.Books);
+              Assert.Single(db.Books);
         Assert.Equal("Тестовая книга", db.Books.First().Title);
     }
 }

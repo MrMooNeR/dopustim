@@ -2,16 +2,9 @@
 {
     partial class BooksForm
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
-        private System.ComponentModel.IContainer components = null;
+                          private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
+                                protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
             {
@@ -22,11 +15,7 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
-        private void InitializeComponent()
+                                private void InitializeComponent()
         {
             dataGridViewBooks = new DataGridView();
             buttonRefresh = new Button();
@@ -37,77 +26,53 @@
             buttonSearch = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridViewBooks).BeginInit();
             SuspendLayout();
-            // 
-            // dataGridViewBooks
-            // 
-            dataGridViewBooks.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+                                          dataGridViewBooks.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewBooks.Location = new Point(25, 20);
             dataGridViewBooks.Name = "dataGridViewBooks";
             dataGridViewBooks.RowHeadersWidth = 51;
             dataGridViewBooks.Size = new Size(620, 207);
             dataGridViewBooks.TabIndex = 0;
             dataGridViewBooks.CellContentClick += dataGridViewBooks_CellContentClick;
-            // 
-            // buttonRefresh
-            // 
-            buttonRefresh.Location = new Point(25, 233);
+                                          buttonRefresh.Location = new Point(25, 233);
             buttonRefresh.Name = "buttonRefresh";
             buttonRefresh.Size = new Size(94, 29);
             buttonRefresh.TabIndex = 1;
             buttonRefresh.Text = "Обновить";
             buttonRefresh.UseVisualStyleBackColor = true;
             buttonRefresh.Click += buttonRefresh_Click;
-            // 
-            // buttonAdd
-            // 
-            buttonAdd.Location = new Point(25, 268);
+                                          buttonAdd.Location = new Point(25, 268);
             buttonAdd.Name = "buttonAdd";
             buttonAdd.Size = new Size(94, 29);
             buttonAdd.TabIndex = 2;
             buttonAdd.Text = "Добавить";
             buttonAdd.UseVisualStyleBackColor = true;
             buttonAdd.Click += buttonAdd_Click;
-            // 
-            // buttonEdit
-            // 
-            buttonEdit.Location = new Point(25, 303);
+                                          buttonEdit.Location = new Point(25, 303);
             buttonEdit.Name = "buttonEdit";
             buttonEdit.Size = new Size(94, 29);
             buttonEdit.TabIndex = 3;
             buttonEdit.Text = "Изменить";
             buttonEdit.UseVisualStyleBackColor = true;
             buttonEdit.Click += buttonEdit_Click;
-            // 
-            // buttonDelete
-            // 
-            buttonDelete.Location = new Point(25, 338);
+                                          buttonDelete.Location = new Point(25, 338);
             buttonDelete.Name = "buttonDelete";
             buttonDelete.Size = new Size(94, 29);
             buttonDelete.TabIndex = 4;
             buttonDelete.Text = "Удалить";
             buttonDelete.UseVisualStyleBackColor = true;
             buttonDelete.Click += buttonDelete_Click;
-            // 
-            // textBoxSearch
-            // 
-            textBoxSearch.Location = new Point(211, 310);
+                                          textBoxSearch.Location = new Point(211, 310);
             textBoxSearch.Name = "textBoxSearch";
             textBoxSearch.Size = new Size(218, 27);
             textBoxSearch.TabIndex = 5;
-            // 
-            // buttonSearch
-            // 
-            buttonSearch.Location = new Point(447, 310);
+                                          buttonSearch.Location = new Point(447, 310);
             buttonSearch.Name = "buttonSearch";
             buttonSearch.Size = new Size(94, 29);
             buttonSearch.TabIndex = 6;
             buttonSearch.Text = "Поиск";
             buttonSearch.UseVisualStyleBackColor = true;
             buttonSearch.Click += buttonSearch_Click;
-            // 
-            // BooksForm
-            // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+                                          AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(buttonSearch);

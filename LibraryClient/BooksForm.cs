@@ -147,8 +147,7 @@ namespace LibraryClient
             client.DefaultRequestHeaders.Authorization =
                 new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", _token);
 
-            // Используем эндпоинт поиска на сервере!
-            var response = await client.GetAsync($"api/Books/search?userId={_userId}&query={query}");
+                      var response = await client.GetAsync($"api/Books/search?userId={_userId}&query={query}");
 
             if (response.IsSuccessStatusCode)
             {
